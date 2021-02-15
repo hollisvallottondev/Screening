@@ -1,0 +1,40 @@
+{
+  "name": "basic-react-saffold",
+  "version": "1.0.0",
+  "description": "Basic react application scaffold",
+  "main": "index.js",
+  "author": "Hollis Vallotton",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --mode=development",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.16",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^5.1.0",
+    "mini-css-extract-plugin": "^1.3.6",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-svg-loader": "^3.0.3",
+    "sass-loader": "^11.0.1",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
