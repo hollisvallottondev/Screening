@@ -6,8 +6,8 @@ const webpack = require('webpack');
 module.exports = {
 	output: {
 		filename: '[name].bundle.js',
-		publicPath: 'build/',
-		path: path.resolve(__dirname, 'build'),
+		publicPath: '/',
+		path: path.resolve(__dirname, "build"),
 	},
 	resolve: {
 		extensions: ['.ts', '.tsx', '.js', '.jsx'], 
